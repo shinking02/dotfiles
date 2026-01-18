@@ -85,6 +85,7 @@ link_all() {
 
   # Git
   backup_and_link "$DOTFILES_DIR/git/.gitconfig" "$HOME/.gitconfig"
+  backup_and_link "$DOTFILES_DIR/git/ignore" "$HOME/.config/git/ignore"
 
   # Hammerspoon
   backup_and_link "$DOTFILES_DIR/hammerspoon/init.lua" "$HOME/.hammerspoon/init.lua"
