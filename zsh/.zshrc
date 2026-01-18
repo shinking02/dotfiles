@@ -11,6 +11,9 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# Enable completion of directories and files regardless of case.
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
   source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
