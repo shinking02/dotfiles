@@ -1,0 +1,8 @@
+background = #000000
+background-opacity = 0.7
+font-size = 12
+
+quick-terminal-position = bottom
+quick-terminal-animation-duration = 0
+keybind = global:ctrl+j=toggle_quick_terminal
+keybind = shift+enter=text:\n

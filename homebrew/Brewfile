@@ -1,0 +1,8 @@
+brew "powerlevel10k"
+cask "1password"
+cask "cursor"
+cask "ghostty"
+cask "google-chrome"
+cask "hammerspoon"
+cask "rectangle"
+vscode "mateocerquetella.xcode-12-theme"
