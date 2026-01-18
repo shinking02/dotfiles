@@ -15,9 +15,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Run install.sh
+      - name: Run init.sh
         shell: bash
         run: |
           set -euo pipefail
-          chmod +x ./install.sh
-          ./install.sh
+          chmod +x ./init.sh
+          ./init.sh
