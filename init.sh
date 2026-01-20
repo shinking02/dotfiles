@@ -109,6 +109,9 @@ main() {
   brew_bundle
   link_all
 
+  # Homebrewの共有ディレクトリのパーミッションを修正
+  chmod -R go-w /opt/homebrew/share
+
   log "Done."
   log "Please restart."
 }
