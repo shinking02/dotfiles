@@ -6,3 +6,9 @@ quick-terminal-position = bottom
 quick-terminal-animation-duration = 0
 keybind = global:ctrl+j=toggle_quick_terminal
 keybind = shift+enter=text:\n
+
+keybind = cmd+shift+enter=new_split:right
+keybind = cmd+left=goto_split:left
+keybind = cmd+right=goto_split:right
+keybind = cmd+up=goto_split:top
+keybind = cmd+down=goto_split:bottom
